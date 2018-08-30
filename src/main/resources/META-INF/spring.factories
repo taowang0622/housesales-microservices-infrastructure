@@ -1,3 +1,0 @@
-# Auto Configure
-#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-#com.github.taowang0622.homehive.autoconfig.HttpClientAutoConfiguration

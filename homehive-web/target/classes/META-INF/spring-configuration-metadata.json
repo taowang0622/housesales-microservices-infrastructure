@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "name": "spring.httpclient",
+      "type": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "defaultValue": "agent",
+      "name": "spring.httpclient.agent",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "defaultValue": 1000,
+      "name": "spring.httpclient.connect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "defaultValue": 10,
+      "name": "spring.httpclient.max-conn-per-route",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "defaultValue": 50,
+      "name": "spring.httpclient.max-conn-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.taowang0622.homehive.web.autoconfig.HttpClientProperties",
+      "defaultValue": 10000,
+      "name": "spring.httpclient.socket-timeout",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
