@@ -94,11 +94,14 @@
 
 
 
+    <!--By using the logger tag and its attribute addivity, we can set specific root logging level for the package-->
+    <!--If removing addivity, we can specify different logging level for a particular class-->
     <logger name="com.homehive" level="DEBUG" additivity="false" >
         <appender-ref ref="FILE-DEBUG" />
         <appender-ref ref="CONSOLE" />
     </logger>
 
+    <!--The root logging level is set to INFO that means that when messages are defined as INFO or above, the following appenders are called-->
     <root level="INFO">
         <appender-ref ref="FILE-DEBUG" />
         <appender-ref ref="FILE-ERROR" />
